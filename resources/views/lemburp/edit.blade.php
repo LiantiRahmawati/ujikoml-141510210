@@ -10,7 +10,7 @@
             <div class="panel panel-primary">
                 <div class="panel-heading">Edit Lembur</div>
                 <div class="panel-body"></div>
-                {!! Form::model($lemburp,['method'=>'PATCH','route'=>['lemburp.update',$lemburp->id]])!!}
+                {!! Form::model($lembur,['method'=>'PATCH','route'=>['lembur.update',$lembur->id]])!!}
                         {!! Form::hidden('id',null,['class'=>'form-control']) !!}
                         <div class="form-group{{ $errors->has('kode_l') ? ' has-error' : '' }}">
                             <label for="kode_l" class="col-md-4 control-label">Kode Lembur Pegawai</label>

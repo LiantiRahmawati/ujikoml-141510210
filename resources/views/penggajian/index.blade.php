@@ -170,7 +170,7 @@
 
 													
 												</td>
-												<td>Ari Firmansyah</td>
+												<td>Ari Firmansyahs</td>
 											</tr>
 											@endforeach
 										</tbody>

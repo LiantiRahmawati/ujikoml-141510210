@@ -111,10 +111,10 @@ class lemburpegawaiController extends Controller
      */
     public function edit($id)
     {
-        $pegawai=Pegawai::all();
+        $pegawaip=Pegawai::all();
         $kategori=Kategori_lembur::all();
         $lembur=Lembur_pegawai::find($id);
-        return view('lemburp.edit',compact('lembur','pegawai','kategori'));
+        return view('lemburp.edit',compact('lemburp','pegawai','kategori'));
     }
 
     /**
